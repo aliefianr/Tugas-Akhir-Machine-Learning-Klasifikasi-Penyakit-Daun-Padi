@@ -5,6 +5,9 @@
 ![XGBoost](https://img.shields.io/badge/Classifier-XGBoost-green)
 ![Streamlit](https://img.shields.io/badge/Deployment-Streamlit-red)
 
+Oleh : Aliefian Ramadhan (22081010171)
+Kelas : Machine Learning
+
 Repositori ini berisi kode sumber dan laporan Tugas Akhir mengenai deteksi penyakit pada daun padi menggunakan metode **Hybrid Deep Learning**.
 
 Sistem ini menggabungkan **DenseNet201** (sebagai ekstraktor fitur) dan **XGBoost** (sebagai pengklasifikasi), serta dilengkapi antarmuka web interaktif berbasis **Streamlit**.
