@@ -16,7 +16,7 @@ Sistem ini menggabungkan **DenseNet201** (sebagai ekstraktor fitur) dan **XGBoos
 - **Deteksi 4 Kelas**: BrownSpot, Healthy, Hispa, LeafBlast.
 - **Metode Hybrid**: Menggabungkan akurasi Deep Learning dengan efisiensi XGBoost.
 - **Explainability**: Visualisasi area fokus prediksi menggunakan **Grad-CAM**.
-- **Web App**: Antarmuka sederhana untuk upload gambar dan melihat hasil prediksi.
+- **Streamlit App**: Antarmuka sederhana untuk upload gambar dan melihat hasil prediksi.
 
 ## 📂 Struktur File
 
