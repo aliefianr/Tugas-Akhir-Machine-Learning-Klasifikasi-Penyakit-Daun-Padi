@@ -24,6 +24,7 @@ Sistem ini menggabungkan **DenseNet201** (sebagai ekstraktor fitur) dan **XGBoos
 | :--- | :--- |
 | `Kode_ML_Padi_Aliefian.ipynb` | Notebook utama berisi preprocessing, training model, evaluasi, dan visualisasi. |
 | `Laporan Akhir ML Aliefian Ramadhan.pdf` | Laporan lengkap tugas akhir (PDF). |
+| `Link Dataset` | Link untuk download dataset. |
 | `app.py` | Source code aplikasi Streamlit untuk deployment. |
 | `xgb_best_model.pkl` | File model hasil training. File ini dihasilkan dari notebook dan wajib satu folder dengan `app.py`. |
 
