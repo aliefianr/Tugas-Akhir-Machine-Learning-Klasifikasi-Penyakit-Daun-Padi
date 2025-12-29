@@ -38,6 +38,7 @@ Berdasarkan hasil pengujian pada dataset, model Hybrid (DenseNet201 + Tuned XGBo
 Ikuti langkah ini untuk menjalankan aplikasi di komputer lokal:
 
 ### 1. Clone Repositori
+''bash
 git clone https://github.com/aliefianr/Tugas-Akhir-Machine-Learning---Klasifikasi-Penyakit-Daun-Padi.git
 cd Tugas-Akhir-Machine-Learning---Klasifikasi-Penyakit-Daun-Padi
 
