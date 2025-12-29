@@ -22,7 +22,7 @@ Sistem ini menggabungkan **DenseNet201** (sebagai ekstraktor fitur) dan **XGBoos
 | `Kode_ML_Padi_Aliefian.ipynb` | Notebook utama berisi preprocessing, training model, evaluasi, dan visualisasi. |
 | `Laporan Akhir ML Aliefian Ramadhan.pdf` | Laporan lengkap tugas akhir (PDF). |
 | `app.py` | Source code aplikasi Streamlit untuk deployment. |
-| `xgb_best_model.pkl` | **(PENTING)** File model hasil training. File ini dihasilkan dari notebook dan **wajib ada** satu folder dengan `app.py`. |
+| `xgb_best_model.pkl` | File model hasil training. File ini dihasilkan dari notebook dan wajib satu folder dengan `app.py`. |
 
 ## 📊 Performa Model
 Berdasarkan hasil pengujian pada dataset, model Hybrid (DenseNet201 + Tuned XGBoost) memberikan hasil terbaik:
