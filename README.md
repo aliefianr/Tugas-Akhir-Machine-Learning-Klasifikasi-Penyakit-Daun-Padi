@@ -41,17 +41,17 @@ Berdasarkan hasil pengujian pada dataset, model Hybrid (DenseNet201 + Tuned XGBo
 ## 🚀 Cara Instalasi
 
 1. Setup Folder Project
-Letakkan folder project rice-leaf di dalam direktori htdocs XAMPP: C:\xampp\htdocs\rice-leaf
+Letakkan folder project streamlit rice-leaf di dalam direktori htdocs XAMPP: C:\xampp\htdocs\rice-leaf
 
 3. Setup Python Environment
 Buka Terminal/CMD, lalu arahkan ke folder python_model:
 
 ```cd C:\xampp\htdocs\rice-leaf\python_model```
 Buat dan aktifkan Virtual Environment:
-
-```python -m venv venv```
-
-```.\venv\Scripts\activate```
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
 
 5. Install Library
 Install dependencies dengan versi yang kompatibel
@@ -60,5 +60,4 @@ Install dependencies dengan versi yang kompatibel
 
 ## 🖥️ Cara Menjalankan
 Buka XAMPP Control Panel, Start module Apache.
-
 Buka browser dan akses: http://localhost/rice-leaf/
