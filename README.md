@@ -26,7 +26,7 @@ Sistem ini menggabungkan **DenseNet201** (sebagai ekstraktor fitur) dan **XGBoos
 | `Laporan Akhir ML Aliefian Ramadhan.pdf` | Laporan lengkap tugas akhir (PDF). |
 | `Link Dataset` | Link untuk download dataset. |
 | `Slide ML Aliefian Ramadhan.pptx` | Slide presentasi projek |
-| `app.py` | Source code aplikasi Streamlit untuk deployment. |
+| `Streamlit rice-leaf` | Source code aplikasi Streamlit untuk deployment. |
 | `xgb_best_model.pkl` | File model hasil training. File ini dihasilkan dari notebook dan wajib satu folder dengan `app.py`. |
 
 ## 📊 Performa Model
@@ -46,7 +46,9 @@ Letakkan folder project streamlit rice-leaf di dalam direktori htdocs XAMPP: C:\
 3. Setup Python Environment
 Buka Terminal/CMD, lalu arahkan ke folder python_model:
 
-```cd C:\xampp\htdocs\rice-leaf\python_model```
+```
+cd C:\xampp\htdocs\rice-leaf\python_model
+```
 Buat dan aktifkan Virtual Environment:
 ```
 python -m venv venv
@@ -55,8 +57,9 @@ python -m venv venv
 
 5. Install Library
 Install dependencies dengan versi yang kompatibel
-
-```pip install "numpy<2.0" "tensorflow<2.11" opencv-python xgboost scikit-learn matplotlib shap joblib Pillow```
+```
+pip install "numpy<2.0" "tensorflow<2.11" opencv-python xgboost scikit-learn matplotlib shap joblib Pillow
+```
 
 ## 🖥️ Cara Menjalankan
 Buka XAMPP Control Panel, Start module Apache.
