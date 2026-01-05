@@ -38,22 +38,23 @@ Berdasarkan hasil pengujian pada dataset, model Hybrid (DenseNet201 + Tuned XGBo
 | Logistic Regression | 70.49% | Baseline model. |
 | Random Forest | 67.21% | Pembanding. |
 
-## 🚀 Cara Menjalankan Aplikasi
+##🚀 Cara Instalasi
 
-Ikuti langkah ini untuk menjalankan aplikasi di komputer lokal:
+1. Setup Folder Project
+Letakkan folder project rice-leaf di dalam direktori htdocs XAMPP: C:\xampp\htdocs\rice-leaf
 
-### 1. Clone Repositori
-```
-git clone https://github.com/aliefianr/Tugas-Akhir-Machine-Learning---Klasifikasi-Penyakit-Daun-Padi.git
-cd Tugas-Akhir-Machine-Learning---Klasifikasi-Penyakit-Daun-Padi
-```
+3. Setup Python Environment
+Buka Terminal/CMD, lalu arahkan ke folder python_model:
+```cd C:\xampp\htdocs\rice-leaf\python_model```
+Buat dan aktifkan Virtual Environment:
+```python -m venv venv```
+```.\venv\Scripts\activate```
 
-### 2. Install Library
-```
-pip install tensorflow xgboost streamlit opencv-python-headless scikit-learn pandas matplotlib pillow joblib shap
-```
+5. Install Library
+Install dependencies dengan versi yang kompatibel
+```pip install "numpy<2.0" "tensorflow<2.11" opencv-python xgboost scikit-learn matplotlib shap joblib Pillow```
 
-### 3. Jalankan Streamlit
-```
-streamlit run app.py
-```
+##🖥️ Cara Menjalankan
+Buka XAMPP Control Panel, Start module Apache.
+
+Buka browser dan akses: http://localhost/rice-leaf/
